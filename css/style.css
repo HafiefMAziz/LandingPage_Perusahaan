@@ -1,0 +1,100 @@
+.slider h1,
+.slider h5,
+.platform h3,
+.about h1,
+footer p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 1px;
+}
+
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.3 !important;
+}
+
+.award img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.award .card-panel {
+  width: 300px;
+  height: 380px;
+}
+
+.platform img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+section,
+footer {
+  padding: 10px 0;
+}
+
+.games img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.contact .collection,
+.contact .card-panel {
+  background-color: white;
+  width: 400px;
+  min-height: 300px;
+}
+
+.games img,
+.contact ul {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about {
+  min-height: 700px;
+  background-image: url("../img/svg/svg.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.games {
+  background-image: url("../img/svg/svg2.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.platform {
+  height: 250px;
+}
+.platform img {
+  margin-top: 3rem;
+}
+
+.award {
+  height: 700px;
+  background-image: url("../img/svg/svg3.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact {
+  background-image: url("../img/svg/svg4.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 50%;
+}
